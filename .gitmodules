@@ -1,0 +1,3 @@
+[submodule "Enterprise-Grade-RAG-System-Backend"]
+	path = Enterprise-Grade-RAG-System-Backend
+	url = https://github.com/ekram-kedir/Enterprise-Grade-RAG-System-Backend.git
