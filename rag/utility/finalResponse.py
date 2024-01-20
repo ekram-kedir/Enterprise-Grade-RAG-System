@@ -36,8 +36,7 @@ def readfile(file_path:str):
 
 def generalResponse(question):
 
-    os.environ["OPENAI_API_KEY"] = "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"
-    os.environ["VECTORDB_MODEL"] = "gpt-3.5-turbo"
+    
     chunks =  data_loader(file_path="../../rag/prompts/challenge_document.txt")
     retriever = create_retriever(chunks)
     file_contents = readfile(file_path='../../rag/prompts/generate_prompt.txt')

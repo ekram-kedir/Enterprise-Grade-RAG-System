@@ -65,15 +65,14 @@ def data_generation(prompt, retriever, questions, ground_truths):
     return data
 
 def evaluation(dataset):
-    os.environ["OPENAI_API_KEY"] = "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"
-    os.environ["VECTORDB_MODEL"] = "gpt-3.5-turbo"
+   
     result = evaluate(
     dataset = dataset, 
     metrics=[
         context_precision,
         context_recall,
         faithfulness,
-        # answer_relevancy,
+        answer_relevancy,
     ],
     )
 
