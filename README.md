@@ -25,8 +25,8 @@ This repository serves as the root system for the Enterprise-Grade RAG System. I
 
 ### Subfolders
 
-- [Frontend](./frontend) - Next.js project for the user interface.
-- [Backend](./backend) - Flask application for backend services.
+- [Frontend] - Next.js project for the user interface.
+- [Backend] - Flask application for backend services.
 
 
 Refer to individual subfolders READMEs for specific setup and usage instructions.
@@ -35,8 +35,9 @@ Refer to individual subfolders READMEs for specific setup and usage instructions
 
 For more detailed information and resources, refer to the documentation in each subfolder:
 
-- [Frontend Documentation](./frontend/README.md)
-- [Backend Documentation](./backend/README.md)
+- [Frontend Documentation]
+- [Backend Documentation]
+
 
 ## Deploy
 
