@@ -33,15 +33,11 @@ Refer to individual subfolders READMEs for specific setup and usage instructions
 
 ## Learn More
 
-For more detailed information and resources, refer to the documentation in each subfolder:
-
-- [Frontend Documentation]
-- [Backend Documentation]
-
+For more detailed information and resources, refer to the Readme in each subfolder.
 
 ## Deploy
 
-Follow deployment instructions provided in each subfolder's README for frontend and backend.
+Follow deployment instructions provided in each subfolder's README resources for both frontend and backend.
 
 Thank you for choosing Enterprise-Grade RAG System!
 
