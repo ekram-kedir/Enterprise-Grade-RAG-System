@@ -33,8 +33,8 @@ This repository serves as the main for the Enterprise-Grade RAG System. It inclu
 1. Clone this repository:
 
 ```sh
-git clone git@github.com:abel-blue/prompt-evaluation.git
-cd prompt-evaluation
+https://github.com/ekram-kedir/Enterprise-Grade-RAG-System
+cd Enterprise-Grade-RAG-System
 ```
 
 2. Setup environment variables on `.env`:
