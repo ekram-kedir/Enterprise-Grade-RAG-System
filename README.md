@@ -21,19 +21,7 @@ RAG's service evaluates and ranks different prompts based on effectiveness, help
 
 ## Getting Started
 
-This repository serves as the root system for the Enterprise-Grade RAG System. It includes subfolders for the frontend, backend, and RAG (Prompt Engineering and Evaluation Metrics).
-
-### Subfolders
-
-- [Frontend] - Next.js project for the user interface.
-- [Backend] - Flask application for backend services.
-
-
-Refer to individual subfolders READMEs for specific setup and usage instructions.
-
-## Learn More
-
-For more detailed information and resources, refer to the Readme in each subfolder.
+This repository serves as the main for the Enterprise-Grade RAG System. It includes subfolders for the frontend, backend, and RAG (Prompt Engineering and Evaluation Metrics).
 
 ### Contents
 
