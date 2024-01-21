@@ -1,4 +1,3 @@
-import requests
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Weaviate
 import weaviate
