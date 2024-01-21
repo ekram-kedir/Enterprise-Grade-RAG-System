@@ -35,6 +35,55 @@ Refer to individual subfolders READMEs for specific setup and usage instructions
 
 For more detailed information and resources, refer to the Readme in each subfolder.
 
+### Contents
+
+- [Setup](#setup)
+- [Installation](#installation)
+
+# Setup
+
+1. Clone this repository:
+
+```sh
+git clone git@github.com:abel-blue/prompt-evaluation.git
+cd prompt-evaluation
+```
+
+2. Setup environment variables on `.env`:
+
+(create .env file in the root directory)
+
+```bash
+#################
+# Development env
+#################
+
+OPENAI_API_KEY=""
+VECTORDB_MODEL="gpt-3.5-turbo"
+```
+
+
+# Installation
+
+**Run**
+
+```bash
+# create virtual environment
+python3 -m venv venv
+
+# activate
+source venv/bin/activate
+
+# install requirements
+pip install -r requirements.txt
+
+# to generate test data
+make data_generate
+
+# to evaluate user input data (prob., accur., confid.)
+make data_evaluate
+```
+
 ## Deploy
 
 Follow deployment instructions provided in each subfolder's README resources for both frontend and backend.
