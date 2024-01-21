@@ -72,5 +72,5 @@ make data_generate
 make data_evaluate
 ```
 
-# Thank you for choosing Enterprise-Grade RAG System!
+Thank you for choosing Enterprise-Grade RAG System!
 
